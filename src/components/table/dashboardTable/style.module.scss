@@ -1,0 +1,59 @@
+.text {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.alignTableTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        > div {
+            padding: 8px 0px;
+        }
+    }
+}
+
+.captionStyle {
+    display: flex;
+    justify-content: center;
+    background-color: #ebf4f4;
+    border-radius: 3px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #359595;
+    margin: 12px 24px;
+    align-items: center;
+    > a > button {
+        padding: 12px 0px;
+    }
+}
+
+.tablePadding {
+    padding: 0px 120px;
+    @media only screen and (max-width: 960px) {
+        padding: 0px;
+    }
+}
+.loadingDashboardTable {
+    text-align: center;
+    svg {
+        color: #c9a46f;
+    }
+}
+
+.repayOperationCell {
+    font-size: 13px;
+    line-height: 15px;
+    color: #aaaaaa;
+}

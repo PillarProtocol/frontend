@@ -1,0 +1,91 @@
+.cardStyle {
+    padding: 0px 120px 16px;
+    @media only screen and (max-width: 600px) {
+        padding: 0px;
+    }
+    background: linear-gradient(0deg, #f9f9f9 50%, #153345 50%);
+}
+
+.bigContainer {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+    border-bottom: 1px solid #eeeeee;
+}
+
+.bigContainerWithoutBorderBottom {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.bottomContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    > div {
+        border-bottom: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+        flex: 0 0 33.33%;
+        @media only screen and (max-width: 600px) {
+            flex: 0 0 50%;
+        }
+    }
+}
+
+.bigCardHeading {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #666666;
+    padding: 16px 10px 0px 24px;
+}
+.bigCardText {
+    color: #222222;
+    padding: 0px 0px 16px 24px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    .usdText {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #666666;
+    }
+}
+
+.smallCardHeading {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #666666;
+    padding: 16px 10px 0px 24px;
+}
+
+.smallCardText {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    padding: 0px 0px 16px 24px;
+}
+
+.loadingBox {
+    div {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,49 @@
+.tablePadding {
+    padding: 0px 120px;
+    @media only screen and (max-width: 960px) {
+        padding: 0px;
+    }
+}
+
+.primaryInputPadding {
+    display: flex;
+    justify-content: left;
+    padding: 12px 0px;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        > div {
+            padding: 8px 0px;
+        }
+    }
+}
+
+.alignTableTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-start;
+        > div {
+            padding: 8px 0px;
+        }
+    }
+}
+
+.text {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.searchIconColor {
+    background-color: #359595;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}

@@ -1,0 +1,141 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222222;
+    padding-left: 48px;
+}
+
+.closeButton {
+    flex-basis: auto;
+}
+
+.headerDescription {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px 16px;
+}
+.vaultAddressText {
+    text-align: center;
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 16px;
+}
+.vaultAddressValue {
+    text-align: center;
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    display: flex;
+    justify-content: space-between;
+    > svg {
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .useThisAddress {
+        color: #359595;
+        cursor: pointer;
+    }
+}
+.warningBox {
+    background: #eeeeee;
+    margin-top: 16px;
+}
+.warningMsg {
+    padding: 16px 24px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    > svg {
+        margin-right: 6px;
+    }
+}
+
+.recommended {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 24px;
+    .text {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #666666;
+    }
+    .value {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #666666;
+    }
+}
+.loadingBorrowPillar {
+    padding: 40px 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    > div {
+        margin-top: 24px;
+    }
+    svg {
+        color: #c9a46f;
+    }
+}
+
+.successModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+    button {
+        width: 100%;
+        margin: 16px 0px !important;
+    }
+    svg {
+        margin: 24px 0px;
+    }
+}
+
+.amountToBorrowLabel {
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222222;
+    padding: 32px 0px 16px;
+}

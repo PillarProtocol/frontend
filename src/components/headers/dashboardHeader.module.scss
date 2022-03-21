@@ -1,0 +1,24 @@
+.dashboardHeader {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #f9f9f9;
+    background-color: #153343;
+    padding: 32px 120px 16px;
+    @media only screen and (max-width: 600px) {
+        padding: 33px 0px 17px 16px;
+    }
+}
+
+.featureButtons {
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        > button {
+            margin: 16px 0px;
+        }
+    }
+    display: flex;
+    > button {
+        margin-left: 16px;
+    }
+}

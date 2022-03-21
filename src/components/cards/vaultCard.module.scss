@@ -1,0 +1,74 @@
+.parentDiv {
+    padding: 0px 120px 16px;
+    @media only screen and (max-width: 600px) {
+        padding: 0px;
+    }
+    background: linear-gradient(0deg, #f9f9f9 50%, #153345 50%);
+}
+.outerContainer {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+.addressContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-right: 16px;
+
+    background-color: #ffffff;
+    > div {
+        padding: 24px;
+        border: 1px solid #eeeeee;
+    }
+    @media only screen and (max-width: 600px) {
+        margin-right: 0px;
+    }
+
+    .addInnerContainer {
+        height: 50%;
+        @media only screen and (max-width: 600px) {
+            height: 100%;
+        }
+    }
+}
+.restCards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    background-color: #ffffff;
+    > div {
+        border: 1px solid #eeeeee;
+        flex: 0 0 33.33%;
+        padding: 24px;
+        @media only screen and (max-width: 600px) {
+            flex: 0 0 100%;
+            &:last-child,
+            &:nth-last-child(2) {
+                flex: 0 0 50%;
+            }
+        }
+    }
+}
+
+.leftSpacing {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.descrptionData {
+    font-weight: 600;
+    font-size: 22px;
+    color: #222222;
+    align-items: center;
+    word-break: break-all;
+    .secondaryText {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #666666;
+    }
+}

@@ -1,0 +1,41 @@
+.style {
+    display: flex;
+    @media only screen and (max-width: 960px) {
+        padding: 0px;
+        flex-direction: column;
+        height: 444px;
+    }
+    padding: 0px 120px;
+    background: linear-gradient(0deg, #f9f9f9 50%, #153345 50%);
+    height: 300px;
+    margin-bottom: 60px;
+}
+.childBox {
+    flex: 0 0 50%;
+}
+
+.loadingBox {
+    flex: 0 0 50%;
+    div {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.stakingStyle {
+    display: flex;
+    @media only screen and (max-width: 960px) {
+        padding: 0px;
+        flex-direction: column;
+        height: 444px;
+    }
+    padding: 0px 120px;
+    background: linear-gradient(0deg, #f9f9f9 50%, #153345 50%);
+    height: auto;
+    margin-bottom: 30px;
+}
+.stakingChildBox {
+    flex: 0 0 33.33%;
+}

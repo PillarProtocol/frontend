@@ -1,0 +1,27 @@
+export const getMyVaults = '/myVaults';
+export const totalPillar = '/totalPillar';
+export const totalPillarRepaid = '/totalPillarRepaid';
+export const totalCollateral = '/totalCollateral';
+export const transactions = '/transactions/All';
+export const factoryDetails = '/factory/';
+export const allVaults = '/allVaults/';
+export const vault = '/vault/';
+export const vaultTransactions = '/vaultTransactions/';
+export const approvedCollateral = '/approvedCollateral/';
+export const pillarAvailableForBurning = '/pillarAvailableForBurning/';
+export const approvedPillar = '/approvedPillar/';
+export const price = '/price';
+export const balance = '/balance';
+export const pillarBalance = '/pillarBalance';
+export const checkUserConsent = '/checkUserConsent';
+export const postUserConsent = '/userConsent';
+export const approvedGzil = '/approvedGzil';
+export const gzilBalance = '/gzilBalance';
+export const delegation = '/delegation';
+export const userShares = '/userShares';
+export const delegatorList = '/delegatorList';
+export const rewardList = '/rewardList';
+export const unlockingRequestUrl = '/unlockingRequest';
+export const gzilLockedinStakingContract = '/gzilLockedinStakingContract';
+//stat router api
+export const priceMsg = '/priceMsg';

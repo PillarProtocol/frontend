@@ -1,0 +1,64 @@
+.header {
+    background-color: #153343;
+    border-top: 1px solid #2c4756;
+    border-bottom: 1px solid #2c4756;
+    height: 44px;
+    padding: 0px 120px;
+}
+
+.headerTop {
+    background-color: #153343;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    @media only screen and (max-width: 600px) {
+        padding: 19px 16px;
+    }
+}
+
+.drawerPaper {
+    width: 100%;
+    height: auto !important;
+}
+.drawerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileNavigation {
+    display: flex;
+    height: 66px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 19px 16px;
+    align-items: center;
+    background-color: #153343;
+    border-bottom: 1px solid #2c4756;
+}
+
+.connectWallet {
+    background-color: #153343;
+    padding: 16px;
+}
+
+.mobileCollateralText {
+    padding: 24px 0px 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+}
+.mobileCollateralOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileCollateralOption {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    padding-left: 12px;
+    padding-bottom: 16px;
+}
